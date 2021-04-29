@@ -7,7 +7,7 @@ import {
     Title,
     Card,
     CardHeader,
-    Avatar,
+    Menina,
     Description,
     Bold,
     CardBody,
@@ -20,9 +20,9 @@ import {
     Actions,
     Option,
     OptionLabel,
-} from './styles';
+} from './styles/styles';
 
-import avatar from '../../images/avatar.png';
+import girl from '../../images/girl.jpeg';
 
 export default function Activities() {
     return (
@@ -33,25 +33,25 @@ export default function Activities() {
 
             <Card>
                 <CardHeader>
-                    <Avatar source={avatar} />
+                    <Menina source={girl} />
                     <Description>
-                        <Bold>Você</Bold> pagou a <Bold>@rychillie</Bold>
+                        <Bold>Você</Bold> pagou a <Bold>@apenas_anacris</Bold>
                     </Description>
                 </CardHeader>
 
                 <CardBody>
-                    <UserName>Rychillie</UserName>
+                    <UserName>Ana Cristina</UserName>
                 </CardBody>
 
                 <CardFooter>
                     <Details>
-                        <Value>R$ 0,00</Value>
+                        <Value>R$ 600,00</Value>
 
                         <Divider/>
 
 
                         <Feather name="lock" color="#fff" size={14} />
-                        <Date>Há 2 anos</Date>
+                        <Date>Há 2 dias</Date>
                     </Details>
 
                     <Actions>

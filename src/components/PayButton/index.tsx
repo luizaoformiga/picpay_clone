@@ -1,10 +1,10 @@
 import React from 'react';
 import { MaterialIcons } from '@expo/vector-icons';
 import { TouchableWithoutFeedback } from 'react-native';
+import { Button, Label } from './styles/styles';
+import Definition from './repository/definition';
 
-import { Button, Label } from './styles';
-
-export default function PayButton({ onPress, focused }) {
+export default function PayButton({ onPress, focused }: Definition) {
   return (
     <TouchableWithoutFeedback onPress={onPress}>
       <Button
@@ -23,5 +23,5 @@ export default function PayButton({ onPress, focused }) {
         <Label focused={focused}>Pagar</Label>
       </Button>
     </TouchableWithoutFeedback>
-  );
+  )
 }

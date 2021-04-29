@@ -30,7 +30,7 @@ import {
     UseTicketContainer,
     UseTicketButton,
     UseTicketLabel,
-} from './styles';
+} from './styles/styles';
 
 import creditCard from '../../images/credit-card.png';
 
@@ -38,11 +38,11 @@ export default function Home() {
     const [isVisible, setIsVisible] = useState<boolean>(true);
     const [useBalance, setUseBalance] = useState<boolean>(true);
 
-    function handleToggleVisibility() {
+    const handleToggleVisibility = () => {
         setIsVisible((prevState) => !prevState);
     }
 
-    function handleToggleUseBalance() {
+    const handleToggleUseBalance = () => {
         setUseBalance((prevState) => !prevState);
     }
 

@@ -1,7 +1,5 @@
 import React from 'react';
-
-import { Container, Details, Img, Title, Description } from './styles';
-
+import { Container, Details, Img, Title, Description } from './styles/styles';
 import img13 from '../../images/13.png';
 
 export default function Banner() {

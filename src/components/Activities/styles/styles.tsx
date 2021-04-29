@@ -25,7 +25,11 @@ export const CardHeader = styled.View`
     align-items: center;
 `;
 
-export const Avatar = styled.Image``;
+export const Menina = styled.Image`
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+`;
 
 export const Description = styled.Text`
     color: #fff;

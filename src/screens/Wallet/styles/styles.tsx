@@ -1,8 +1,9 @@
 import styled from 'styled-components/native';
 import { LinearGradient } from 'expo-linear-gradient';
+import colors from './colors';
 
 export const Wrapper = styled.View`
-    background: #000;
+    background: ${colors.background_wrapper};
     flex: 1;
 `;
 
@@ -17,7 +18,7 @@ export const HeaderContainer = styled.SafeAreaView`
 `;
 
 export const Title = styled.Text`
-    color: #fff;
+    color: ${colors.color_white};
     font-size: 16px;
     font-weight: bold;
 `;
@@ -30,7 +31,7 @@ export const BalanceContainer = styled.View`
 
 export const Value = styled.Text`
     font-size: 38px;
-    color: #fff;
+    color: ${colors.color_white};
     font-weight: 200;
 `;
 
@@ -43,7 +44,7 @@ export const EyeButton = styled.TouchableOpacity`
 `;
 
 export const Info = styled.Text`
-    color: #fff;
+    color: ${colors.color_white};
     font-size: 14px;
     font-weight: bold;
 `;
@@ -66,12 +67,12 @@ export const Action = styled.TouchableOpacity`
 
 export const ActionLabel = styled.Text`
     font-size: 16px;
-    color: #fff;
+    color: ${colors.color_white};
     margin-left: 10px;
 `;
 
 export const UseBalance = styled.View`
-    background: #1c1c1e;
+    background: ${colors.background_usebalance};
     height: 60px;
     flex-direction: row;
     padding: 0 16px;
@@ -80,7 +81,7 @@ export const UseBalance = styled.View`
 `;
 
 export const UseBalanceTitle = styled.Text`
-    color: #fff;
+    color: ${colors.color_white};
     font-size: 16px;
     font-weight: 500;
 `;
@@ -91,12 +92,12 @@ export const PaymentMethods = styled.View`
 `;
 
 export const PaymentMethodsTitle = styled.Text`
-    color: #8e8e93;
+    color: ${colors.color_payMethodsTitle};
     text-transform: uppercase;
 `;
 
 export const Card = styled.View`
-    background: #1e232a;
+    background: ${colors.background_card};
     padding: 20px;
     border-radius: 8px;
     margin-top: 10px;
@@ -114,7 +115,7 @@ export const CardDetails = styled.View`
 export const CardTitle = styled.Text`
     font-size: 18px;
     font-weight: bold;
-    color: #fff;
+    color: ${colors.color_white};
 `;
 
 export const CardInfo = styled.Text`
@@ -134,7 +135,7 @@ export const AddButtoon = styled.TouchableOpacity`
 `;
 
 export const AddLabel = styled.Text`
-    color: #0db060;
+    color: ${colors.color_addLabel};
     font-size: 18px;
     font-weight: bold;
     margin-left: 15px;
@@ -150,7 +151,7 @@ export const UseTicketButton = styled.TouchableOpacity`
 `;
 
 export const UseTicketLabel = styled.Text`
-    color: #0db060;
+    color: ${colors.color_useTicketLabel};
     font-size: 16px;
     font-weight: bold;
     margin-left: 15px;

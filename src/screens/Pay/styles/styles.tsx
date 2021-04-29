@@ -1,7 +1,8 @@
 import styled from 'styled-components/native';
+import colors from './colors';
 
 export const Wrapper = styled.SafeAreaView`
-    background: #000;
+    background: ${colors.color_wrapper};
     align-items: center;
     justify-content: center;
     flex: 1;
@@ -10,5 +11,5 @@ export const Wrapper = styled.SafeAreaView`
 export const Label = styled.Text`
     font-weight: bold;
     font-size: 24px;
-    color: #fff;
+    color: ${colors.color_label};
 `;
