@@ -1,0 +1,15 @@
+/node_modules/
+/.expo
+/.eslintcache
+npm-debug.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+web-build/
+/src/images/girl.jpeg
+/package-lock.json
+# macOS
+.DS_Store

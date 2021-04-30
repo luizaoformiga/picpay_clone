@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "my-app",
+    "slug": "my-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/picpay-icon.png",
+    "splash": {
+      "image": "./assets/picpay-logo-11.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#21C25E"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#21C25E"
+      }
+    }
+  }
+}
