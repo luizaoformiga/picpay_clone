@@ -1,6 +1,6 @@
 import React from 'react';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
-import PayButton from '../components/PayButton';
+import { PayButton } from '../components/index';
 import HomeScreen from '../screens/Home';
 import WalletScreen from '../screens/Wallet';
 import PayScreen from '../screens/Pay/index';

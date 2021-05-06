@@ -34,7 +34,7 @@ import {
 
 import creditCard from '../../images/credit-card.png';
 
-export default function Home() {
+export default function Wallet() {
     const [isVisible, setIsVisible] = useState<boolean>(true);
     const [useBalance, setUseBalance] = useState<boolean>(true);
 
