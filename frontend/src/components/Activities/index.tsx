@@ -19,10 +19,10 @@ import {
     Date,
     Actions,
     Option,
-    OptionLabel,
+    OptionLabel
 } from './styles/styles';
 
-import girl from '../../images/girl.jpeg';
+import perfil from '../../images/perfil.png';
 
 export default function Activities() {
     return (
@@ -33,7 +33,7 @@ export default function Activities() {
 
             <Card>
                 <CardHeader>
-                    <Menina source={girl} />
+                    <Menina source={perfil} />
                     <Description>
                         <Bold>Você</Bold> pagou a <Bold>@apenas_anacris</Bold>
                     </Description>
@@ -48,7 +48,6 @@ export default function Activities() {
                         <Value>R$ 600,00</Value>
 
                         <Divider/>
-
 
                         <Feather name="lock" color="#fff" size={14} />
                         <Date>Há 2 dias</Date>

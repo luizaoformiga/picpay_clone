@@ -1,9 +1,7 @@
 import React from 'react';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { PayButton } from '../components/index';
-import HomeScreen from '../screens/Home';
-import WalletScreen from '../screens/Wallet';
-import PayScreen from '../screens/Pay/index';
+import { Home, Wallet, Pay } from '../screens/index';
 import colors from './styles/colors';
 import icons from './icons';
 
@@ -39,31 +37,31 @@ export default function Navigation() {
     >
       <Tab.Screen
         name="Home"
-        component={ HomeScreen }
+        component={ Home }
         options={{ title: 'Início' }}
       />
       
       <Tab.Screen
         name="Wallet"
-        component={ WalletScreen }
+        component={ Wallet }
         options={{ title: 'Carteira' }}
       />
 
       <Tab.Screen
         name="Pay"
-        component={ PayScreen }
+        component={ Pay }
         options={{ title: '' }}
       />
 
       <Tab.Screen
         name="Notifications"
-        component={ PayScreen }
+        component={ Pay }
         options={{ title: 'Notificações' }}
       />
 
       <Tab.Screen
         name="Settings"
-        component={ PayScreen }
+        component={ Pay }
         options={{ title: 'Ajustes' }}
       />
     </Tab.Navigator>
